@@ -16,6 +16,14 @@ Week 2 (8-12)
 - Worked on nose cone design to house electronics
 - Began writing code for altimeter and mpu 6050.
 Week 3 (16-19)
+
+### febuary 
+
+Weeks 1-2 (2-16)
+- got the 3D printed internals designed and tested
+- finished the initial code and began to plan the sodering and final electronics
+- started simulations for the rocket and mesured ideal performance.
+  
 ## Design
 
 ### CAD
@@ -24,6 +32,7 @@ Week 3 (16-19)
 The code in this project wasn't super difficult although it did need us to cover new concepts that we hadn't before. We used both an altimeter and accerlerometer and had them both copy values into a file held on the pico. 
 Initialy we needed to make a code for the altimeter and accerlorometer seperately, We had alread done a project with an accerlometer but the altimeter needed more work. 
 Here is the accerlerometer  [code](raspberry-pi/avoid1.py).
+
 
 
 
