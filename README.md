@@ -1,23 +1,22 @@
-# CPyProjectTemplate
-for this project we just needed to make a led blink using python
-this project was very simple as it wwas the first project of the year so all we needed was the arduino and the computer
-here is the code i used:
-import board
-import neopixel
-import time
+# Pi in the Sky
+## Objective
+To measure and record flight data using a flying machine
+## Planning
+See planning file
+## Weekly updates
+### January
+Week 1 (2-5)
+- Finalized two-stage rocket design and what sensors we are using.
+- Decided on rocket motors and proportions of the rocket.
+- Began CAD design for nose cone that will house electronics.  
 
-dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
-dot.brightness = 0.5 
+Week 2 (8-12)
 
-
-while True:
-    b=25
-    g=0
-    r=25
-    dot.fill((b,g, r))
-    time.sleep(1)
-    dot.fill((0,0,0))
-    time.sleep(1)
-    print("Make it green")
-
-I didnt have any real problems this project, just had to set up all the accounts and downloads.
+- Ordered fuselage tube and parachute
+- Worked on nose cone design to house electronics
+- Began writing code for altimeter and mpu 6050.
+Week 3 (16-19)
+## Design
+### CAD
+### Code
+## Launching
