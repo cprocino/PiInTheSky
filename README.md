@@ -59,3 +59,15 @@ Here is the accerlerometer  [code](raspberry-pi/avoid1.py).
 
 
 ## Launching
+Launch one april 30th: mixed results launch, on the one hand the rocket preformed wonderfully and the average position of the rocket was exactly were we wanted it to be. On the other the rocket split in two and one part ended up stuck in a tree and the other lost in the woods( see picture) 
+
+![Screenshot 2024-05-07 132944](https://github.com/cprocino/PiInTheSky/assets/71406784/a22ea83e-a512-4837-898e-5f8d7d3cde0d)
+the middle dot is where we launched from, the top dot is where the nose cone and electronics landed and the bottom dot is the estimated position of the bottom half is. 
+
+here is the nose stuck in the tree
+
+
+
+
+
+
