@@ -30,11 +30,14 @@ Weeks 1-2 (2-16)
 
 our design was conceptualy easy but did require a lot of leg work partitularly from Zach who took lead in researching and designing each individual part. Besides the cardboard tube and the rocket motor all of the pieces to our rocket were 3D printed and hand painted. 
 here is the nose cone:
- ![png](images/Nosecone.png) 
- the curve that the tip follows was researched for maximum effiency 
- here are the fins:
-  ![png](images/fins.png) 
+![Nose Cone](https://github.com/cprocino/PiInTheSky/assets/71406784/3916ed05-9fa9-40af-bbda-e4bccf8393e1)
 
+ the curve that the tip follows was researched for maximum effiency 
+
+ 
+ here are the fins:
+
+![Screenshot 2024-05-07 125457](https://github.com/cprocino/PiInTheSky/assets/71406784/a1230d67-b44f-4315-bab6-531f5cdd9991)
 
 
 
