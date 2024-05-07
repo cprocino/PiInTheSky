@@ -29,6 +29,12 @@ Weeks 1-2 (2-16)
 ## Design
 
 our design was conceptualy easy but did require a lot of leg work partitularly from Zach who took lead in researching and designing each individual part. Besides the cardboard tube and the rocket motor all of the pieces to our rocket were 3D printed and hand painted. 
+here is the nose cone:
+ ![png](images/Nosecone.png) 
+ the curve that the tip follows was researched for maximum effiency 
+ here are the fins:
+  ![png](images/fins.png) 
+
 
 
 
