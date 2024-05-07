@@ -40,6 +40,11 @@ here is the nose cone:
 ![Screenshot 2024-05-07 125457](https://github.com/cprocino/PiInTheSky/assets/71406784/a1230d67-b44f-4315-bab6-531f5cdd9991)
 
 
+this is the whole thing:
+
+![Stage Assembly](https://github.com/cprocino/PiInTheSky/assets/71406784/ce8ea952-96d6-46b2-8c5d-56e5270974b4)
+
+
 
 
 ### CAD
