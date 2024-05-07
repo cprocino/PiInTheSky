@@ -23,8 +23,15 @@ Weeks 1-2 (2-16)
 - got the 3D printed internals designed and tested
 - finished the initial code and began to plan the sodering and final electronics
 - started simulations for the rocket and mesured ideal performance.
+
+  ### march-april 
   
 ## Design
+
+our design was conceptualy easy but did require a lot of leg work partitularly from Zach who took lead in researching and designing each individual part. Besides the cardboard tube and the rocket motor all of the pieces to our rocket were 3D printed and hand painted. 
+
+
+
 
 ### CAD
 
