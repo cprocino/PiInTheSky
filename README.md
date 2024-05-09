@@ -50,6 +50,55 @@ this is the whole thing:
 ### CAD
 
 ### Code
+#### Code
+``` python
+# type: ignore 
+
+
+import adafruit_mpl3115a2
+import time
+import board # importing the board and and all the nessecary starting bits
+import digitalio
+import adafruit_mpu6050
+import busio
+
+sda_pin = board.GP14   # setting up the pin for SDA
+scl_pin = board.GP15   #  setting up the pin for Scl
+i2c = busio.I2C(scl_pin, sda_pin)    # setting up the i2c var
+mpu = adafruit_mpu6050.MPU6050(i2c)  # setting up the mpu var
+alt = adafruit_mpl3115a2.MPL3115A2(i2c)
+#alt.sealevel_pressure = 103040 
+
+with open("/data.csv", "a") as datalog:
+    #this line opens the file data.txt and appends info to the end of it
+        while True:
+           
+            datalog.write(alt)
+            
+            datalog.flush()
+            time.sleep(0.25)
+            print(f"X: {mpu.acceleration[0]} m/s^2")   #prints the x values
+            print(f"Y: {mpu.acceleration[1]} m/s^2")   #prints the y values
+            print(f"Z: {mpu.acceleration[2]} m/s^2")  #prints the z values
+            time.sleep(1)
+            print()
+            
+            altitude = alt.altitude
+            print('Alt: {0:0.3f} meters'.format(alt.altitude))
+        
+
+            # x = round(mpu.acceleration[0],3)
+            #y = round(mpu.acceleration[1],3)
+            #z = round(mpu.acceleration[2],3)
+
+            #print(f"x:{ x} y:{y} z:{z}") # This is an F string which lets us put a variable that is changing in our serial monitor or in a OLED or LCD
+            time.sleep(.1)
+
+  
+
+    
+
+```
 The code in this project wasn't super difficult although it did need us to cover new concepts that we hadn't before. We used both an altimeter and accerlerometer and had them both copy values into a file held on the pico. 
 Initialy we needed to make a code for the altimeter and accerlorometer seperately, We had alread done a project with an accerlometer but the altimeter needed more work. 
 Here is the accerlerometer  [code](raspberry-pi/avoid1.py).
