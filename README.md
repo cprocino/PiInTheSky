@@ -99,7 +99,7 @@ with open("/data.csv", "a") as datalog:
     
 
 ```
-The code in this project wasn't super difficult although it did need us to cover new concepts that we hadn't before. We used both an altimeter and accerlerometer and had them both copy values into a file held on the pico. 
+The code in this project wasn't super difficult although it did need us to cover new concepts that we hadn't before. We used both an altimeter and accerlerometer and had them both copy values into a file held on the pico. Some problems that i did run into were making the boot file work so that there would be a code and data mode and having both the accelerometer and altimeter work onj the same SCL and SDA. 
 Initialy we needed to make a code for the altimeter and accerlorometer seperately, We had alread done a project with an accerlometer but the altimeter needed more work. 
 
 ### wiring 
